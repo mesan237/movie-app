@@ -18,7 +18,7 @@ const TMDB_CONFIG = {
 
   headers: {
     accept: "application/json",
-    Authorization: `Bearer ${process.env.EXPO_PUBLI_MOVIE_ACCESS_TOKEN}`,
+    Authorization: `Bearer ${process.env.EXPO_PUBLIC_MOVIE_ACCESS_TOKEN}`,
   },
 };
 
